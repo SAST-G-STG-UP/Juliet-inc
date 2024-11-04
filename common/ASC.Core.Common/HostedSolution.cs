@@ -27,10 +27,9 @@ using ASC.Core.Security.Authentication;
 using ASC.Core.Tenants;
 using ASC.Core.Users;
 
-
-
 namespace ASC.Core
 {
+
     public class HostedSolution
     {
         private readonly ITenantService tenantService;
@@ -51,7 +50,6 @@ namespace ASC.Core
             get;
             private set;
         }
-
 
         public HostedSolution(ConnectionStringSettings connectionString)
             : this(connectionString, null)
