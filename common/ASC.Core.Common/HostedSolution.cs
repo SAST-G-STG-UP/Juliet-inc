@@ -27,8 +27,6 @@ using ASC.Core.Security.Authentication;
 using ASC.Core.Tenants;
 using ASC.Core.Users;
 
-
-
 namespace ASC.Core
 {
     public class HostedSolution
